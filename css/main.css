@@ -1,0 +1,40 @@
+html {
+  box-sizing: border-box;
+  background-color: #dcd4cd;
+  line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+h1 {
+  font-family: 'Dosis', sans-serif;
+  font-style: bold;
+}
+
+p {
+  font-family: 'Georgia', sans-serif;
+  display: block;
+}
+
+.link-card {
+  list-style-type: none;
+  font-family: 'Georgia', sans-serif;
+}
+
+div {
+  font-family: 'Dosis', sans-serif;
+  background-color: #785439;
+  padding: .4em .75em .5em;
+  display: inline-block;
+  border-radius: 8px;
+}
+
+a {
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  font-style: bold;
+  font-size: 1.5rem;
+}
