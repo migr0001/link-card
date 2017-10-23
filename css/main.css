@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  background-color: #dcd4cd;
+  background-color: #f0eee8;
   line-height: 1.5;
 }
 
@@ -8,20 +8,45 @@ html {
   box-sizing: inherit;
 }
 
-h1 {
+body {
+  background-color: #dcd4cd;
+  padding: 1rem;
+  border: 3px solid #785439;
+  border-radius: 8px;
+}
+
+h2 {
   font-family: 'Dosis', sans-serif;
-  font-style: bold;
+  font-size: 1.5rem;
+  color: #512200;
 }
 
 p {
   font-family: 'Georgia', sans-serif;
   display: block;
+  line-height: 1.5;
 }
 
 .link-card {
   list-style-type: none;
   font-family: 'Georgia', sans-serif;
+  padding-left: 0;
+  max-width: 20em;
 }
+
+.link-card dt {
+  display: inline-block;
+  width: 10em;
+}
+
+.link-card dd {
+  display: inline-block;
+  margin: 0;
+  min-width: 9em;
+  font-style: italic;
+}
+
+
 
 div {
   font-family: 'Dosis', sans-serif;
@@ -31,10 +56,9 @@ div {
   border-radius: 8px;
 }
 
-a {
+a .link-card {
   text-align: center;
   text-decoration: none;
   color: #fff;
-  font-style: bold;
   font-size: 1.5rem;
 }
