@@ -10,33 +10,43 @@ html {
 
 body {
   background-color: #dcd4cd;
-  padding: 1rem;
-  border: 3px solid #785439;
+  border: 3px solid #9a816d;
   border-radius: 8px;
-}
-
-h2 {
-  font-family: 'Dosis', sans-serif;
-  font-size: 1.5rem;
-  color: #512200;
-}
-
-p {
-  font-family: 'Georgia', sans-serif;
-  display: block;
-  line-height: 1.5;
+  text-align: center;
 }
 
 .link-card {
-  list-style-type: none;
-  font-family: 'Georgia', sans-serif;
-  padding-left: 0;
-  max-width: 20em;
+  padding: .4em .75em .5em;
+}
+
+.link-card h2 {
+  font-family: Dosis, sans-serif;
+  font-size: 1.5rem;
+  color: #512200;
+  margin-top: 0;
+  text-align: left;
+}
+
+.link-card p {
+  font-family: Georgia, sans-serif;
+  color: #512200;
+  display: block;
+  line-height: 1.5;
+  text-align: left;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+hr {
+  color: #9a816d;
 }
 
 .link-card dt {
   display: inline-block;
   width: 10em;
+  color: #512200;
+  text-align: left;
+  font-size: .875rem;
 }
 
 .link-card dd {
@@ -44,21 +54,40 @@ p {
   margin: 0;
   min-width: 9em;
   font-style: italic;
+  color: #512200;
+  text-align: left;
+  font-size: .875rem;
 }
 
-
+.link-card ul {
+  list-style-type: none;
+  font-family: Georgia, sans-serif;
+  padding-left: 0;
+  max-width: 20em;
+  line-height: 1.5rem;
+}
 
 div {
-  font-family: 'Dosis', sans-serif;
+  font-family: Dosis, sans-serif;
   background-color: #785439;
   padding: .4em .75em .5em;
   display: inline-block;
   border-radius: 8px;
 }
 
-a .link-card {
-  text-align: center;
+.link-card a {
   text-decoration: none;
   color: #fff;
-  font-size: 1.5rem;
+  font-size: 1.125rem;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+.link-card:hover {
+  background-color: #cabdb2;
+  display: block;
+}
+
+a .btn {
+  padding: 5em;
 }
