@@ -13,10 +13,13 @@ body {
   border: 3px solid #9a816d;
   border-radius: 8px;
   text-align: center;
+  text-decoration: none;
 }
 
 .link-card {
   padding: .4em .75em .5em;
+  display: block;
+  text-decoration: none;
 }
 
 .link-card h2 {
@@ -37,8 +40,8 @@ body {
   padding-top: 0;
 }
 
-hr {
-  color: #9a816d;
+.border {
+  border: 1px solid #9a816d;
 }
 
 .link-card dt {
@@ -47,6 +50,11 @@ hr {
   color: #512200;
   text-align: left;
   font-size: .875rem;
+}
+
+.link-card dl {
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .link-card dd {
@@ -61,10 +69,12 @@ hr {
 
 .link-card ul {
   list-style-type: none;
-  font-family: Georgia, sans-serif;
   padding-left: 0;
   max-width: 20em;
-  line-height: 1.5rem;
+  line-height: 1.5;
+  border-top: 2px solid #9a816d;
+  border-bottom: 2px solid #9a816d;
+  margin-right: 0;
 }
 
 div {
@@ -73,9 +83,10 @@ div {
   padding: .4em .75em .5em;
   display: inline-block;
   border-radius: 8px;
+  margin-bottom: 1rem;
 }
 
-.link-card a {
+.link-card span {
   text-decoration: none;
   color: #fff;
   font-size: 1.125rem;
@@ -83,11 +94,11 @@ div {
   margin-top: 1rem;
 }
 
+.link-card a {
+  text-decoration: none;
+}
+
 .link-card:hover {
   background-color: #cabdb2;
   display: block;
-}
-
-a .btn {
-  padding: 5em;
 }
